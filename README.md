@@ -2,7 +2,7 @@
 
 An open source FiveM scripting library
 
-![999s Scripting](https://mintlify.s3.us-west-1.amazonaws.com/999s/images/9s-hero.jpg "999s Scripting")
+![999s Scripting](/github_assets/9s-hero.jpg "999s Scripting")
 
 ไลบรารีย์ที่จะช่วยให้การสร้าง FiveM Resource เป็นระเบียบมากขึ้น และทำงานได้ดีมากยิ่งขึ้นโดยสิ่งหลักที่เราคำนึงถึงคือ `Type Annotation` โดยจะทำงานในรูปแบบ Runtime Type Checking และในขณะนี้ไลบรารีย์เรากำลังอยู่ในขั้นตอนพัฒนา ถ้าหากใครสนใจใช้งานหรือพัฒนาร่วมสามารถ **Fork** และ **Clone** ได้เลย
 
