@@ -1,0 +1,35 @@
+---
+---
+--- 999s Developer - Types of Bridge
+--- Made for developing script eaiser and readable
+--- @github mysbryce
+--- @portfolio https://stateless-prt.vercel.app
+--- @email fx.frame009@gmail.com
+--- 
+---
+
+--- @class EventObject
+--- @field name EventName
+--- @field paramsSort EventParamsSort
+---
+---
+--- @class EventContext
+--- @field get fun(key: string): any
+--- 
+--- 
+--- @class SchemaFallback
+--- @field makeTypes fun(typesList: EventParamsType): SchemaFallback
+--- @field registerAs fun(key: string): SchemaFallback
+--- @field getSchema fun(): EventObject
+--- 
+---
+--- @alias StateFallbackGet fun(): any
+--- @alias StateFallbackSet fun(newValue: any)
+--- @alias StateCallback fun(previousValue: any, newValue: any)
+--- @alias EventCallback fun(ctx: EventContext)
+--- @alias EventName string | string[]
+--- @alias EventParamsSort table<string, number>
+--- @alias EventParamsType table<string, VarType>
+--- @alias DebugType 'success' | 'info' | 'warn' | 'error'
+--- @alias VarType 'nil' | 'number' | 'string' | 'boolean' | 'table' | 'function' | 'thread' | 'userdata' | null
+--- @alias null 'NULL'
