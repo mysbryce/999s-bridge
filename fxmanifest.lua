@@ -12,6 +12,10 @@ author '999s <github:mysbryce>'
     }
 ]]
 
+shared_scripts {
+    'shared/import.lua'
+}
+
 files {
     'shared/import.lua',
     'shared/types.lua'

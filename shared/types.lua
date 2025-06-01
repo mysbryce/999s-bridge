@@ -22,6 +22,20 @@
 --- @field registerAs fun(key: string): SchemaFallback
 --- @field getSchema fun(): EventObject
 --- 
+--- @class ArrayPrototype
+--- @field len fun(self: ArrayPrototype): integer
+--- @field push fun(self: ArrayPrototype, value: any)
+--- @field pop fun(self: ArrayPrototype): any
+--- @field shift fun(self: ArrayPrototype): any
+--- @field unshift fun(self: ArrayPrototype, value: any)
+--- @field forEach fun(self: ArrayPrototype, callback: fun(value: any, index: integer))
+--- @field map fun(self: ArrayPrototype, callback: fun(value: any, index: integer): any): ArrayPrototype
+--- @field filter fun(self: ArrayPrototype, callback: fun(value: any, index: integer): boolean): ArrayPrototype
+--- @field find fun(self: ArrayPrototype, callback: fun(value: any, index: integer): boolean): any
+--- @field includes fun(self: ArrayPrototype, value: any): boolean
+--- @field indexOf fun(self: ArrayPrototype, value: any): integer
+--- @field toTable fun(self: ArrayPrototype): any[]
+--- @field print fun(self: ArrayPrototype)
 ---
 --- @alias StateFallbackGet fun(): any
 --- @alias StateFallbackSet fun(newValue: any)
